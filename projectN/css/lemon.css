@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Shippori Mincho', serif;
+  z-index: 10;
+  font-weight: normal;
+  display: block;
+}
+
+.back-image img{
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flex-header{
+  display: flex;
+}
+
+.logo img{
+  margin: 20px 0 0 40px;
+  width: 100px;
+}
+
+.section {
+  margin: 20px 40px 0 auto;
+}
+
+.section ul{
+  display: flex;
+}
+
+.section li {
+  list-style: none;
+  margin: 0 20px 0 0;
+}
+
+.section a {
+  margin: 10px 0 0 0;
+  color: white;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.section a:hover {
+  color: #cccccc;
+}
+
+.header-letter {
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.header-letter p{
+  color: white;
+  font-size: 30px;
+  margin: 0 0 0 50px;
+  letter-spacing: 0.7em;
+}
+
+
+.main {
+  margin: auto;
+  margin-top: 850px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-title span {
+  width: 400px;
+  border-bottom: 1px solid black;
+  transform: translateY(110px);
+  margin: auto;
+}
+
+.main-letter {
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  ruby-position : over;
+  margin: 180px 0 0 200px;
+  position: relative;
+}
+
+.main-letter ruby {
+  writing-mode:vertical-rl
+}
+
+.main-letter p {
+  margin: 0 0 0 45px;
+  letter-spacing: 0.5em;
+}
+
+
+/* .main-section {
+  background-image: url(../image/9714.png);
+  background-size: 100%;
+  text-align: center;
+  background-position: center;
+} */
+
+.back-lemon img{
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: 1300px;
+  right: 200px;
+  z-index: 0;
+}
+
+.author-name {
+  transform: translateY(100px);
+}
+
+.con-image img {
+  width: 50%;
+  margin: 200px auto 50px auto;
+}
+
+.con-h3 h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 200px;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.box-le {
+  text-align: center;
+}
+
+.box-le img {
+  margin: auto;
+}
+
+.box-le h3 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.margin-lemon {
+  width: 15%;
+}
+
+.box-bata {
+  text-align: center;
+}
+
+.box-bata img {
+  margin: 0 auto 55px auto;
+}
+
+.box-bata h3 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.box-bata2 {
+  text-align: center;
+}
+
+.box-bata2 img {
+  margin: 50px auto 55px auto;
+}
+
+.box-bata2 h3 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.image-syouhin img {
+  margin: 100px auto;
+  width: 60%;
+}
+
+
+.button {
+  margin: 30px 0 100px 0;
+  text-align: center;
+}
+
+.button2 {
+  margin: 100px 0 100px 0;
+  text-align: center;
+}
+
+.button p:hover {
+  background-color: #c0c0c0;
+}
+
+.button p {
+  margin: auto;
+  width: 25%;
+  font-size: 25px;
+  border: 1px solid;
+  transition: .3s;
+}
+
+.button a {
+  color: black;
+  text-decoration: none;
+}
+
+.button2 p:hover {
+  background-color: #c0c0c0;
+}
+
+.button2 p {
+  margin: auto;
+  width: 25%;
+  font-size: 25px;
+  border: 1px solid;
+  transition: .3s;
+}
+
+.button2 a {
+  color: black;
+  text-decoration: none;
+}
+
+.line {
+  border: 1px solid;
+  width: 90%;
+  margin: 0 auto 100px auto;
+  color: #282828;
+}
+
+.fotter-icon {
+  margin: 100px 0;
+}
+
+.fotter-icon ul {
+  display: flex;
+  justify-content: center;
+}
+
+.fotter-icon li {
+  font-size: 60px;
+  transition: .5s;
+}
+
+.fotter-icon ion-icon {
+  color: black;
+}
+
+.fotter-icon li:hover {
+  transform: translateY(-10px);
+}
+
+
+.main-2 {
+  margin: 200px 0 200px 0;
+}
+
+.member {
+  text-align: center;
+  margin: 100px 0 100px 0;
+}
+
+.member span {
+  width: 400px;
+  border-bottom: 1px solid black;
+  margin: 10px auto 0 auto;
+}
+
+.block {
+  margin: auto;
+  width: 500px;
+}
+
+.block h3 {
+  margin: 15px 0;
+  font-size: 25px;
+  color: yellowgreen;
+}
+
+.block p {
+  margin-bottom: 50px;
+  padding: 0;
+  font-size: 20px;
+}
+
+
+.campaign {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.campaign h2 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.campaign h3 {
+  font-size: 20px;
+}
+
+.campaign p {
+  margin: 15px 0;
+}
+
+.campaign2 {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 100px 0;
+}
+
+.campaign-naiyou {
+  margin: 50px 0;
+}
+
+.campaign-naiyou h2 {
+  font-size: 25px;
+}
+
+.campaign2 img {
+  width: 20%;
+  margin-right: 40px;
+}
+
+.Q-A {
+  text-align: center;
+}
+
+.Q-A p {
+  font-size: 20px;
+}
+
+.sindan {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.sindan h3 {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
+
+.sindan p {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.sindan a {
+  color: black;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.sindan a:hover {
+  color: #cccccc;
+}

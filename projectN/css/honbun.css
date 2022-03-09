@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F4EED0;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.line {
+  border: 1px solid;
+  width: 150px;
+  margin: 5px auto 100px auto;
+  color: #282828;
+}
+
+.header p {
+  font-size: 25px;
+  color: black;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+
+
+.title {
+  text-align: center;
+}
+
+.honbun {
+  text-align: center;
+}
+
+.honbun img {
+  width: 70%;
+}
+
+.title p {
+  font-size: 40px;
+}
+
+.line2 {
+  border: 1px solid;
+  width: 40%;
+  margin: 10px auto 100px auto;
+  color: #282828;
+}
+
+.main-bun {
+  margin: auto;
+  width: 50%;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.main-line {
+  margin: 10px;
+}
+
+.title2 p {
+  font-size: 40px;
+  margin: 100px 0 0 0;
+  text-align: center;
+}
+
+.line2 {
+  border: 1px solid;
+  width: 40%;
+  margin: 10px auto 100px auto;
+  color: #282828;
+}
+
+.button {
+  margin: 30px 0 50px 0;
+  text-align: center;
+}
+
+.button p:hover {
+  background-color: #9DBDAE;
+}
+
+.button p {
+  margin: auto;
+  width: 25%;
+  font-size: 25px;
+  border: 1px solid;
+  transition: .3s;
+}
+
+.button a {
+  color: black;
+  text-decoration: none;
+}
+
+.fotter {
+  text-align: center;
+  margin: 0 0 200px 0;
+}
