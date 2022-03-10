@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Kaisei HarunoUmi', serif;
 }
 
 body {
@@ -29,18 +30,49 @@ body {
   text-decoration: none;
 }
 
+.title-tate {
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  margin: 100px auto 0 150px;
+}
 
+.title-tate h1 {
+  font-size: 70px;
+}
+
+.title-tate h2 {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.title-tate p {
+  font-size: 25px;
+}
 
 .title {
   text-align: center;
 }
 
 .honbun {
-  text-align: center;
+  margin-top: 100px;
 }
 
-.honbun img {
-  width: 70%;
+.block1 {
+  width: 60%;
+  margin: 0 auto 50px 150px;
+}
+
+.block2 {
+  width: 60%;
+  margin: 0 150px 50px auto;
+}
+
+#normal {
+  font-size: 23px;
+}
+
+#big {
+  font-size: 40px;
 }
 
 .title p {
