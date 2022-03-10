@@ -1,10 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Kaisei HarunoUmi', serif;
   font-weight: normal;
-  color: #000;
+  color: #333631;
   /* z-index: 10; */
+}
+
+body {
+  background-color: #e6eae3;
 }
 
 .sozai1 img {
